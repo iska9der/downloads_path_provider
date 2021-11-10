@@ -1,5 +1,5 @@
-name: downloads_path_provider_28_example
-description: Demonstrates how to use the downloads_path_provider_28 plugin.
+name: downloads_path_provider_29_example
+description: Demonstrates how to use the downloads_path_provider_29 plugin.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -24,7 +24,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  downloads_path_provider_28:
+  downloads_path_provider_29:
     path: ../
 
 # For information on the generic Dart part of this file, see the

@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 
 class DownloadsPathProvider {
   static const MethodChannel _channel =
-      const MethodChannel('downloads_path_provider_28');
+      MethodChannel('downloads_path_provider_29');
 
   static Future<Directory?> get downloadsDirectory async {
     final String? path = await _channel.invokeMethod('getDownloadsDirectory');

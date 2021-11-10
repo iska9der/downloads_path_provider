@@ -1,6 +1,6 @@
-# downloads_path_provider_28_example
+# downloads_path_provider_29_example
 
-Demonstrates how to use the downloads_path_provider_28 plugin.
+Demonstrates how to use the downloads_path_provider_29 plugin.
 
 ## Getting Started
 

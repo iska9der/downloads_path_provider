@@ -3,7 +3,7 @@
 @implementation DownloadsPathProviderPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"downloads_path_provider_28"
+      methodChannelWithName:@"downloads_path_provider_29"
             binaryMessenger:[registrar messenger]];
   DownloadsPathProviderPlugin* instance = [[DownloadsPathProviderPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];

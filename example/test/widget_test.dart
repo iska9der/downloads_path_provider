@@ -7,7 +7,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:downloads_path_provider_28_example/main.dart';
+import 'package:downloads_path_provider_29_example/main.dart';
 
 void main() {
   testWidgets('Get downloads directory', (WidgetTester tester) async {

@@ -1,10 +1,9 @@
+import 'dart:async';
 import 'dart:io';
 
+import 'package:downloads_path_provider_29/downloads_path_provider_29.dart';
 import 'package:flutter/material.dart';
-import 'dart:async';
-
 import 'package:flutter/services.dart';
-import 'package:downloads_path_provider_28/downloads_path_provider_28.dart';
 
 void main() => runApp(new MyApp());
 
@@ -44,13 +43,13 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
-      home: new Scaffold(
-        appBar: new AppBar(
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
           title: const Text('Downloads Directiry example app'),
         ),
-        body: new Center(
-          child: new Text(
+        body: Center(
+          child: Text(
             _downloadsDirectory != null
                 ? 'Downloads directory: ${_downloadsDirectory.path}\n'
                 : 'Could not get the downloads directory',

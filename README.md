@@ -1,4 +1,4 @@
-# downloads_path_provider_28
+# downloads_path_provider_29
 
 Flutter plugin to get the downloads directory.  
 
@@ -18,7 +18,7 @@ For help on editing plugin code, view the [documentation](https://flutter.io/dev
 
 ## Example
 ```dart
-import 'package:downloads_path_provider_28/downloads_path_provider_28.dart';  
+import 'package:downloads_path_provider_29/downloads_path_provider_29.dart';  
 
 Future<Directory> downloadsDirectory = DownloadsPathProvider.downloadsDirectory;
 ```
